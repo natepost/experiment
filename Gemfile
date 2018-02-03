@@ -9,6 +9,8 @@ gem 'webpacker'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 
+
+
 # gem 'bootstrap', '~> 4.0.0'
 
 # Use Capistrano for deployment
