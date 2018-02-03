@@ -1,4 +1,14 @@
 <p id="notice"><%= notice %></p>
 
+<p>
+  <strong>Title:</strong>
+  <%= @experiment.title %>
+</p>
+
+<p>
+  <strong>Body:</strong>
+  <%= @experiment.body %>
+</p>
+
 <%= link_to 'Edit', edit_experiment_path(@experiment) %> |
 <%= link_to 'Back', experiments_path %>
