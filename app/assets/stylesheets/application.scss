@@ -1,5 +1,10 @@
-// Custom bootstrap variables must be set or imported *before* bootstrap.
-@import "bootstrap";
+// Import Experiment Specific styles
+@import "experiments";
 
 // Override Boostrap variables
 @import "bootstrap/variables";
+
+
+
+// Custom bootstrap variables must be set or imported *before* bootstrap.
+@import "bootstrap";
