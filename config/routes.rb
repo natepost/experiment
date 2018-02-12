@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
   resources :experiments
 
-  root "welcome#index"
+  root "welcome#landing"
 end
